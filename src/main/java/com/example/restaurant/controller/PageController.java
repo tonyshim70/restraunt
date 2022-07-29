@@ -11,6 +11,6 @@ public class PageController {
 
     @GetMapping("/main")
     public ModelAndView main(){
-        return new ModelAndView("aaaa/main");
+        return new ModelAndView("main");
     }
 }
